@@ -1,0 +1,120 @@
+body {
+background:#fff;
+font-family:Arial, sans-serif;
+}
+
+p {
+margin-bottom:20px;
+}
+
+.clearout {
+height:20px;
+clear:both;
+}
+
+#productslider {
+display:none;
+
+}
+
+productcontainer{
+	width:100%;
+	background-color:transparent;
+}
+
+
+
+.nbs-productslider-container {
+    position:relative;
+    max-width:100%;
+}
+body > div.container > div > div.nbs-productslider-inner{width:100%;}
+.nbs-productslider-ul {
+    position:relative;
+    width:9999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+
+.nbs-productslider-inner {
+    overflow:hidden;
+    float:left;
+    width:100%;
+    border:none;
+    height:400px; 
+	margin:0px; 
+}
+
+.nbs-productslider-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+    line-height:0px;
+}
+.nbs-productslider-item img {
+    width: 100%;
+	height::100%;
+    cursor: pointer;
+    position: relative;6
+    margin-top: 10px;
+    margin-bottom: 10px;
+	margin-left:3px;
+    max-width:160px;
+    max-height:300px;
+}
+
+.nbs-productslider-item p{  
+
+	color: #4c4c4c;
+	font-weight:200;
+	font-size:19px;
+	padding:5px;}
+
+#productbutton {
+
+background-color:#4C4C4C;
+			
+			font-size:18px;
+			color:#a4a4a4;
+			border:1px solid #a4a4a4;
+			border-radius:0;
+			font-weight:300;
+			font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 			 padding: 10px 10px 10px 10px;
+ 			 position:relative;
+ 				 bottom:-20px;
+}
+
+#productbutton:hover{
+	 color:#FFFFFF;
+	border:1px solid #FFFFFF;}
+	
+
+/*** Navigation ***/
+
+.nbs-productslider-nav-left,
+.nbs-productslider-nav-right {
+    width: 40px;
+    height: 40px; 
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.5;
+	
+}
+
+.nbs-productslider-nav-left {
+    left: 10px;
+    background: url(../images/buttonprevious.png) no-repeat;
+	
+}
+
+.nbs-productslider-nav-right {
+	
+    right: 5px;
+    background: url(../images/buttonnext.png) no-repeat;
+}

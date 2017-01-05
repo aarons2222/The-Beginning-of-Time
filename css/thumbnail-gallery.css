@@ -1,0 +1,37 @@
+/*!
+ * Start Bootstrap - Thumbnail Gallery HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+	margin:0px;
+
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+
+body > div.navbar.navbar-inverse.navbar-static-bottom{
+	
+	background-color:transparent;
+	margin-top:-20px;}
+	
+	
+#brandthumb{
+	
+	background-color:transparent;
+	border:none;}
+
+
+	
+body > div.container{
+	
+	width:100%;
+	margin-top:30px;
+}
+	
+body > div.navbar.navbar-inverse.navbar-static-bottom{width:100%;
+margin-right:-40px;}
